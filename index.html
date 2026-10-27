@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ervin Tan — CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Space+Grotesk:wght@400;500&family=Space+Mono&display=swap">
+<style>
+:root{
+  --bg:#08060F;--ink:#EEE8FF;--body:#CFC6EA;--muted:#8F86AD;--accent:#A77BFF;--panel:rgba(8,6,15,.86);--line:rgba(167,123,255,.18);
+  --display:'Big Shoulders Inline','Arial Narrow',Impact,sans-serif;--sans:'Space Grotesk',system-ui,-apple-system,sans-serif;--mono:'Space Mono',ui-monospace,Menlo,monospace;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#08060F}}
+:root[data-theme="dark"]{--bg:#08060F}
+*,*::before,*::after{box-sizing:inherit}
+html{background:var(--bg);scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+#grid{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+main{position:relative;z-index:1;width:min(980px,100% - 40px);margin:0 auto;padding:24px 0 64px}
+a{color:var(--ink)}
+.rx span{display:inline-block}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:15px}
+.top a{text-decoration:none;color:var(--body)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 16px;background:var(--panel);color:var(--ink);text-decoration:none;font-size:14px}
+.btn:hover{border-color:rgba(167,123,255,.55)}
+h1{font-family:var(--display);font-variation-settings:'opsz' 72,'wght' 300;font-size:clamp(84px,17vw,190px);line-height:.86;color:var(--ink);margin:56px 0 0}
+h1 .acc{color:var(--accent)}
+.pos{font-size:clamp(18px,2.4vw,22px);color:var(--ink);max-width:36ch;margin:22px 0 0;line-height:1.4}
+.k{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h2{font-family:var(--display);font-variation-settings:'opsz' 72,'wght' 400;font-size:clamp(48px,8vw,80px);line-height:.9;color:var(--ink);margin:88px 0 22px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,3.5vw,32px)}
+.role{display:grid;grid-template-columns:150px 1fr;gap:6px 28px;padding:22px 0;border-top:1px solid var(--line)}
+.role:first-child{border-top:0;padding-top:0}
+.role:last-child{padding-bottom:0}
+.role h3{font-family:var(--display);font-variation-settings:'opsz' 72,'wght' 400;font-size:34px;line-height:.95;color:var(--ink);margin:0}
+.org{color:var(--accent);font-size:15px;margin:6px 0 10px}
+.role ul{margin:0;padding-left:18px}
+.role li{margin:0 0 6px}
+.ph{color:var(--muted);font-style:italic}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.skills .panel h3{font-size:16px;font-weight:500;color:var(--ink);margin:0 0 6px}
+.skills .panel p{margin:0;font-size:15px}
+.edu p{margin:0 0 10px}.edu p:last-child{margin:0}
+.fine{margin-top:56px;font-size:13px;color:var(--muted)}
+@media (max-width:640px){.role{grid-template-columns:1fr}.role h3{font-size:30px}h1{margin-top:40px}}
+</style>
+</head>
+<body>
+<canvas id="grid" aria-hidden="true"></canvas>
+<main>
+  <div class="top"><a href="https://claude.ai/artifact/7ySTZQLbpnjyYwFicjsUJ5">← Home</a><a class="btn" href="#" aria-label="Download CV as PDF (placeholder)">Download PDF</a></div>
+  <h1 class="rx" data-w="300" aria-label="Ervin Tan">ERVIN<br><span class="acc">TAN</span></h1>
+  <p class="pos">Seventeen years of CT, from scanner to boardroom. Radiographer first, AI practitioner now.</p>
+  <p class="k" style="margin-top:14px">Singapore / Asia-Pacific</p>
+
+  <h2 class="rx" data-w="400">Experience</h2>
+  <div class="panel">
+    <div class="role"><span class="k">20XX — Present</span><div><h3 class="rx" data-w="400">Clinical Marketing &amp; Applications Leader, CT</h3><p class="org">GE HealthCare · Asia-Pacific</p>
+      <ul><li>Leads CT clinical marketing and applications across the region.</li><li>Runs competitive intelligence for the CT portfolio.</li><li>Builds and teaches AI literacy for clinical and commercial teams.</li></ul></div></div>
+    <div class="role"><span class="k">20XX — 20XX</span><div><h3 class="rx" data-w="400">Procurement</h3><p class="org">[Organisation]</p>
+      <ul><li class="ph">Placeholder: scope, budget or categories owned.</li><li class="ph">Placeholder: one quantified outcome.</li></ul></div></div>
+    <div class="role"><span class="k">20XX — 20XX</span><div><h3 class="rx" data-w="400">CT Applications Specialist</h3><p class="org">[Vendor]</p>
+      <ul><li class="ph">Placeholder: sites supported, protocols built, users trained.</li><li class="ph">Placeholder: one quantified outcome.</li></ul></div></div>
+    <div class="role"><span class="k">20XX — 20XX</span><div><h3 class="rx" data-w="400">Radiographer</h3><p class="org">[Hospital]</p>
+      <ul><li class="ph">Placeholder: modalities, subspecialties, notable responsibilities.</li></ul></div></div>
+  </div>
+
+  <h2 class="rx" data-w="400">Skills</h2>
+  <div class="skills">
+    <div class="panel"><h3>CT clinical applications</h3><p>Protocol design, cardiac, perfusion and spectral imaging, dose optimisation.</p></div>
+    <div class="panel"><h3>Competitive intelligence</h3><p>Portfolio positioning, competitor tracking, procurement insight.</p></div>
+    <div class="panel"><h3>Clinical marketing</h3><p>Positioning, clinical evidence, launch and education content.</p></div>
+    <div class="panel"><h3>Generative AI</h3><p>Tool building, agentic workflows, AI education for clinical teams.</p></div>
+  </div>
+
+  <h2 class="rx" data-w="400">Education</h2>
+  <div class="panel edu">
+    <p><strong style="color:var(--ink);font-weight:500">Generative AI certifications</strong> · SUTD</p>
+    <p class="ph">Placeholder: radiography degree or diploma, institution, year.</p>
+  </div>
+
+  <p class="fine">Prototype. Dates, organisations and bullets in italics are placeholders.</p>
+</main>
+<script>
+(() => {
+  const cv = document.getElementById('grid'), ctx = cv.getContext('2d'), base = document.createElement('canvas'), bctx = base.getContext('2d');
+  const rm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ST = ['#15111F', '#4A2C9E', '#8C5CF0', '#E9DDFF'].map(h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)));
+  const ramp = v => { v = Math.min(1, v); const p = v * 3, i = Math.min(2, Math.floor(p)), f = p - i, a = ST[i], c = ST[i + 1]; return `rgb(${a[0] + (c[0] - a[0]) * f | 0},${a[1] + (c[1] - a[1]) * f | 0},${a[2] + (c[2] - a[2]) * f | 0})`; };
+  let W = 0, H = 0, dpr = 1, cs = 12, sq = 9, cols = 0, rows = 0, b = new Float32Array(0), waves = [], running = false, last = 0;
+  const tile = (g, x, y) => { g.beginPath(); g.roundRect ? g.roundRect(x, y, sq, sq, 2.5) : g.rect(x, y, sq, sq); g.fill(); };
+  function size(force) { const nw = innerWidth, nh = innerHeight; if (!force && nw === W && Math.abs(nh - H) < 120) return;
+    W = nw; H = nh; dpr = Math.min(devicePixelRatio || 1, 2); cs = W < 640 ? 16 : 12; sq = cs - 3; cols = Math.ceil(W / cs) + 1; rows = Math.ceil(H / cs) + 1; b = new Float32Array(cols * rows);
+    for (const c of [cv, base]) { c.width = W * dpr; c.height = H * dpr; } bctx.setTransform(dpr, 0, 0, dpr, 0, 0); bctx.fillStyle = '#08060F'; bctx.fillRect(0, 0, W, H); bctx.fillStyle = ramp(0);
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) tile(bctx, c * cs, r * cs); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.drawImage(base, 0, 0); }
+  const RX = [...document.querySelectorAll('.rx')].map(el => { const spans = []; const walk = n => [...n.childNodes].forEach(x => {
+      if (x.nodeType === 3) { const fr = document.createDocumentFragment(); [...x.textContent].forEach(ch => { if (ch === ' ') { fr.appendChild(document.createTextNode(' ')); return; } const s = document.createElement('span'); s.textContent = ch; s.setAttribute('aria-hidden', 'true'); fr.appendChild(s); spans.push(s); }); x.replaceWith(fr); }
+      else if (x.nodeType === 1 && x.tagName !== 'BR') walk(x); }); walk(el); if (!el.hasAttribute('aria-label')) el.setAttribute('aria-label', el.textContent); return { el, spans, w: +el.dataset.w || 400, last: [] }; });
+  function drop(x, y, I) { if (rm) return; waves.push({ x, y, r: 0, v: 150, w: 44, I, R: Math.hypot(W, H) * 0.9 }); if (!running) { running = true; last = performance.now(); requestAnimationFrame(frame); } }
+  function frame(t) { const dt = Math.min(0.05, (t - last) / 1000 || 0.016); last = t; const k = Math.pow(0.94, dt * 60); let mx = 0;
+    for (let i = 0; i < b.length; i++) { b[i] *= k; if (b[i] > mx) mx = b[i]; }
+    waves = waves.filter(w => { w.r += w.v * dt; if (w.r > w.R) return false; const P = w.I * Math.pow(1 - w.r / w.R, 1.2), h = w.w / 2;
+      const c0 = Math.max(0, Math.floor((w.x - w.r - h) / cs)), c1 = Math.min(cols - 1, Math.ceil((w.x + w.r + h) / cs)), r0 = Math.max(0, Math.floor((w.y - w.r - h) / cs)), r1 = Math.min(rows - 1, Math.ceil((w.y + w.r + h) / cs));
+      for (let r = r0; r <= r1; r++) for (let c = c0; c <= c1; c++) { const dr = Math.abs(Math.hypot(c * cs + sq / 2 - w.x, r * cs + sq / 2 - w.y) - w.r); if (dr < h) { const v = Math.cos(dr / h * Math.PI / 2) * P, i = r * cols + c; if (v > b[i]) { b[i] = v; if (v > mx) mx = v; } } } return true; });
+    ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.drawImage(base, 0, 0); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) { const v = b[r * cols + c] * 0.6; if (v < 0.02) continue; ctx.fillStyle = ramp(v); tile(ctx, c * cs, r * cs); }
+    const reads = RX.map(R => { const er = R.el.getBoundingClientRect(); if (er.bottom < 0 || er.top > H) return null; return R.spans.map(s => { const r = s.getBoundingClientRect(), cx = (r.left + r.width / 2) / cs | 0, cy = (r.top + r.height / 2) / cs | 0; return cx >= 0 && cx < cols && cy >= 0 && cy < rows ? Math.min(1, b[cy * cols + cx]) : 0; }); });
+    RX.forEach((R, j) => { const v = reads[j]; if (!v) return; v.forEach((x, i) => { const wt = Math.round((R.w + (900 - R.w) * x) / 25) * 25; if (R.last[i] === wt) return; R.last[i] = wt; R.spans[i].style.fontVariationSettings = `'opsz' 72,'wght' ${wt}`; }); });
+    if (waves.length === 0 && mx < 0.004) { running = false; b.fill(0); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.drawImage(base, 0, 0); RX.forEach(R => R.spans.forEach((s, i) => { R.last[i] = R.w; s.style.fontVariationSettings = `'opsz' 72,'wght' ${R.w}`; })); return; }
+    requestAnimationFrame(frame); }
+  let down = null; addEventListener('pointerdown', e => { down = { x: e.clientX, y: e.clientY }; }, { passive: true });
+  addEventListener('pointerup', e => { if (!down) return; const m = Math.hypot(e.clientX - down.x, e.clientY - down.y); down = null; if (m > 8 || e.target.closest('a,button')) return; drop(e.clientX, e.clientY, 1.6); }, { passive: true });
+  addEventListener('resize', () => size(false));
+  const start = () => size(true); (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(start, start);
+})();
+</script>
+</body>
+</html>
